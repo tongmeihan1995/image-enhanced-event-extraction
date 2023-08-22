@@ -1,17 +1,20 @@
+# NEW!
+ACE2005-image dataset is now available at https://drive.google.com/drive/folders/1LU_pfn_AbKguEdMTXZNNjv3vq05sehkq?usp=drive_link
+
 # Introduce
 The source code of the paper *image enhanced event detection in news articles* in AAAI2020.
 
-For event extration, we propose a novel Dual Recurrent Multimodal Model, DRMM, to conduct deep interactions between images and sentences for modality features aggregation.
+For event extraction, we propose a novel Dual Recurrent Multimodal Model, DRMM, to conduct deep interactions between images and sentences for modality features aggregation.
 
 Our academic paper which describes DRMM in detail can be found here: https://tongmeihan1995.github.io/meihan.github.io/research/AAAI2020.pdf.
 
 # Quick Start
 
-1. Get ace2005 English dataset and transform it to BIO format in EEdata directory, named train.txt, dev.txt and test.txt, and sentences are splitted by an empty line.
+1. Get the ace2005 English dataset and transform it to BIO format in the EEdata directory, named train.txt, dev.txt and test.txt, and sentences are splitted by an empty line.
 
-2. Download our image dataset in EEdata directory.
+2. Download our image dataset in the EEdata directory.
 
-3. Put all files in EEdata directory.
+3. Put all files in the EEdata directory.
 
 4. Run sh run.sh, and set train = True if you want to retrain the model.
 
